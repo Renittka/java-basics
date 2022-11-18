@@ -120,16 +120,16 @@ public class Main {
 //            System.out.println("Текущая сумма: " + sum);
 //        }
 //        System.out.println("Итоговая сумма: " + sum);
-
-
-        int i = 0;
-        while (i <= 5) {
-            if (i == 3) {
-                i++;
-                continue;
-            }
-            System.out.println(i);
-            i++;
-        }
+//
+//
+//        int i = 0;
+//        while (i <= 5) {
+//            if (i == 3) {
+//                i++;
+//                continue;
+//            }
+//            System.out.println(i);
+//            i++;
+//        }
     }
 }
