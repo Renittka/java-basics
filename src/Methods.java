@@ -72,6 +72,7 @@ public class Methods {
         }
     }
 
+    /*
     public static void main(String[] args) {
 
         printHelloWorld();
@@ -105,5 +106,7 @@ public class Methods {
         System.out.println(getSum(2.5, 5.2));
         System.out.println(getSum(2.3f, 32f));
     }
+
+     */
 
 }
