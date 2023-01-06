@@ -1,6 +1,6 @@
-package oop;
+package math;
 
-public class Rectangle {
+class Rectangle {
     int x = 5;
     int y = 10;
     final double PI = 3.14;

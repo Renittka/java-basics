@@ -1,9 +1,9 @@
 package oop;
 
 public class Car {
-    String model;
-    String color;
-    int age;
+    private String model;
+    private String color;
+    private int age;
 
     public Car() {
         model = "Toyota";
@@ -15,14 +15,37 @@ public class Car {
     }
 
     public Car(String myModel, String myColor) {
-        model = myModel;
+        this(myModel);
         color = myColor;
     }
 
     public Car(String myModel, String myColor, int myAge) {
-        model = myModel;
-        color = myColor;
+        this(myModel, myColor);
         age = myAge;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public void run(int mySpeed, String model) {
